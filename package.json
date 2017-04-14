@@ -1,0 +1,26 @@
+{
+  "name": "study_js",
+  "version": "1.0.0",
+  "description": "This repo is for learning JavaScript over ES2015",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/.bin/webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seriwb/study_js.git"
+  },
+  "author": "seri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seriwb/study_js/issues"
+  },
+  "homepage": "https://github.com/seriwb/study_js#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2016": "^6.24.1",
+    "webpack": "^2.3.3"
+  }
+}
