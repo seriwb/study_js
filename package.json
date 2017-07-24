@@ -11,16 +11,17 @@
     "type": "git",
     "url": "git+https://github.com/seriwb/study_js.git"
   },
+  "private": true,
   "author": "seri",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/seriwb/study_js/issues"
   },
   "homepage": "https://github.com/seriwb/study_js#readme",
   "devDependencies": {
-    "babel-core": "^6.24.1",
-    "babel-loader": "^6.4.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
     "babel-preset-es2016": "^6.24.1",
-    "webpack": "^2.3.3"
+    "webpack": "^3.3.0"
   }
 }
