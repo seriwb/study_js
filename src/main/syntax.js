@@ -76,8 +76,3 @@ console.log(rest);
 let l = 5, r = 10;
 [l, r] = [r, l];
 console.log(l, r);
-
-
-console.log("\n");
-console.log("\n");
-console.log("\n");
