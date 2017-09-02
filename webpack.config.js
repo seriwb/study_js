@@ -1,10 +1,10 @@
-var path = require('path');
-
 module.exports = {
-  entry: './index.js',
+  entry: {
+    "public/bundle": './index.js',
+    "dist/main/array_search_object": "./src/main/array_search_object.js"
+  },
   output: {
-    filename: 'bundle.js',
-    path: path.resolve(__dirname, 'public')
+    filename: "[name].js"
   },
   module: {
     rules: [
